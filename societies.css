@@ -1,0 +1,85 @@
+body {
+    justify-content: center;
+    align-items: center;
+    background-color: #ffdcdc;
+    min-height: 100vh;
+}
+
+table {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    border-color: #ffdcdc;
+}
+
+th {
+    background: #945702;
+    color: #fff;
+    text-shadow: 1px 2px 1px #222;
+    font-size: 1.27rem;
+    padding: .54rem;
+}
+
+td {
+    padding: .9rem;
+    font-size: 1.2rem;
+}
+
+tbody {
+    background-color: #eee;
+    color: rgb(0, 0, 0);
+}
+
+
+/*Tablet Desktop: 768px*/
+
+@media (min-width: 767px) and (max-width: 1024px) {
+    th {
+        font-size: .85rem;
+        padding: .3rem;
+    }
+    td {
+        padding: .5rem;
+        font-size: 1rem;
+    }
+}
+
+
+/*Small mobile: 320px*/
+
+@media (max-width: 767px) {}
+
+
+/*Large mobile: 480px*/
+
+@media only screen and (min-width: 360px) and (max-width: 480px) {
+    th {
+        font-size: .8rem;
+        padding: .1rem;
+    }
+    td {
+        padding: .4rem;
+        font-size: .9rem;
+    }
+}
+
+@media (max-width: 375px) {
+    th {
+        font-size: .8rem;
+        padding: .1rem;
+    }
+    td {
+        padding: .4rem;
+        font-size: .9rem;
+    }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 360px) {
+    th {
+        font-size: .8rem;
+        padding: .1rem;
+    }
+    td {
+        padding: .4rem;
+        font-size: .8rem;
+    }
+}

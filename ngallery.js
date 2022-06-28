@@ -1,0 +1,1 @@
+alert("Click an image for large view and its caption");

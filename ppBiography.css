@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #ffdcdc;
+}
+
+body {
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    padding: 30px;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, .2);
+}
+
+.image {
+    position: relative;
+    overflow: hidden;
+}
+
+.image.image1 {
+    width: 230px;
+    height: 230px;
+    float: left;
+    border-radius: 50%;
+    shape-outside: circle();
+    margin: 10px;
+}
+
+.image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container p,
+h1,
+b {
+    background: #fff;
+}
+
+.container p {
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    line-height: 22px;
+    color: rgb(0, 0, 0);
+}
+
+.container h1 {
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 30px;
+    color: rgb(190, 111, 6);
+}
+
+
+/*Tablet Desktop: 768px*/
+
+@media (min-width: 768px) and (max-width: 1024px) {}
+
+
+/*Small mobile: 320px*/
+
+@media (max-width: 767px) {}
+
+
+/*Large mobile: 480px*/
+
+@media only screen and (min-width: 360px) and (max-width: 480px) {
+    .container {
+        width: 370px;
+        padding: 7px;
+    }
+    .image.image1 {
+        width: 180px;
+        height: 180px;
+        float: left;
+        border-radius: 50%;
+        shape-outside: circle();
+        margin: 60px 20px 30px 0;
+    }
+}
+
+@media (max-width: 375px) {
+    .container {
+        width: 350px;
+        padding: 7px;
+    }
+    .image.image1 {
+        width: 180px;
+        height: 180px;
+        float: left;
+        border-radius: 50%;
+        shape-outside: circle();
+        margin: 60px 20px 30px 0;
+    }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 360px) {
+    .container {
+        width: 345px;
+        padding: 7px;
+    }
+    .image.image1 {
+        width: 180px;
+        height: 180px;
+        float: left;
+        border-radius: 50%;
+        shape-outside: circle();
+        margin: 60px 20px 30px 0;
+    }
+}

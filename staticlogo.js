@@ -4,9 +4,9 @@
 
 
 var ddsitelogo = {
-    setting: { orientation: 2, visibleduration: 0, fadeduration: [0] }, //orientation=1|2|3|4, duration=millisec or 0, fadedurations=millisecs
+    setting: { orientation: 4, visibleduration: 0, fadeduration: [0] }, //orientation=1|2|3|4, duration=millisec or 0, fadedurations=millisecs
     offsets: { x: 10, y: 10 }, //offset of logo relative to window corner
-    logoHTML: '<a href="index.html" title="St. Catherine Catholic Church Alakuko | Home"><img src="Home.gif" style="width:50px; height:auto; border:0" /></a>', //HTML for logo, which is auto wrapped in DIV w/ ID="mysitelogo"
+    logoHTML: '<a href="index.html" title="St. Catherine Catholic Church Alakuko | Home"><img src="home.gif" style="width:50px; height:auto; border:0" /></a>', //HTML for logo, which is auto wrapped in DIV w/ ID="mysitelogo"
 
     coord: {},
 

@@ -452,6 +452,7 @@ footer .social_icon li a:hover {
 
 .credit {
     margin-top: 8px;
+    padding-bottom: 6px;
     background: var(--first-nav-color);
     width: 100%;
     height: auto;

@@ -357,7 +357,7 @@ second-nav .nav-bar {
 }
 
 #features .fea-box h3 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 500;
     padding: 13px 0 7px 0;
     color: rgb(180, 111, 8);
@@ -368,7 +368,7 @@ second-nav .nav-bar {
     font-weight: 400;
     color: rgb(0, 0, 0);
     width: 98%;
-    line-height: 26px;
+    line-height: 30px;
 }
 
 #myiframe {

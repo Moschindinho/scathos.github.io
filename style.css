@@ -286,11 +286,11 @@ second-nav .nav-bar {
 #home a {
     text-decoration: none;
     font-family: 'PT', sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 400;
-    padding: 13px 25px;
+    padding: 9px 15px;
     background-color: #fff;
-    border-radius: 180px;
+    border-radius: 80px;
 }
 
 #home a.gold {
@@ -572,13 +572,14 @@ footer .social_icon li a:hover {
     #home .btn {
         margin-top: 20px;
         line-height: 60px;
-        justify-content: center;
-        flex-wrap: wrap;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
     }
     #home a {
         text-decoration: none;
-        font-size: 1.1rem;
-        padding: 9px 25px;
+        font-size: 1.2rem;
+        padding: 9px 15px;
         background-color: #fff;
         font-weight: 500;
         border-radius: 130px;

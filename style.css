@@ -323,7 +323,7 @@ second-nav .nav-bar {
 
 #features .fea-base {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(345px, 1fr));
     grid-gap: 1.2rem;
     margin-top: 50px;
 }
@@ -357,7 +357,7 @@ second-nav .nav-bar {
 }
 
 #features .fea-box h3 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: 500;
     padding: 13px 0 7px 0;
     color: rgb(180, 111, 8);
@@ -559,7 +559,7 @@ footer .social_icon li a:hover {
     }
     #home a {
         text-decoration: none;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         margin-top: 40px;
         padding: 9px 25px;
         background-color: #fff;
@@ -568,7 +568,8 @@ footer .social_icon li a:hover {
     }
 }
 
-@media (max-width: 991px) {
+
+/*@media (max-width: 991px) {
     #home .btn {
         margin-top: 20px;
         line-height: 60px;
@@ -580,6 +581,28 @@ footer .social_icon li a:hover {
         text-decoration: none;
         font-size: 1.2rem;
         padding: 9px 15px;
+        background-color: #fff;
+        font-weight: 500;
+        border-radius: 130px;
+    }
+}*/
+
+
+/*Desktop Site in Chrome browser: (max-width: 991px*/
+
+@media (max-width: 991px) {
+    #home .btn {
+        margin-top: 10px;
+        line-height: 50px;
+        justify-content: center;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+    }
+    #home a {
+        text-decoration: none;
+        font-size: 1.2rem;
+        padding: 3px 25px;
         background-color: #fff;
         font-weight: 500;
         border-radius: 130px;
@@ -616,6 +639,22 @@ footer .social_icon li a:hover {
         font-size: 1.42rem;
         line-height: 36px;
         text-shadow: none;
+    }
+    #home .btn {
+        margin-top: 10px;
+        line-height: 50px;
+        justify-content: center;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+    }
+    #home a {
+        text-decoration: none;
+        font-size: 1.2rem;
+        padding: 3px 25px;
+        background-color: #fff;
+        font-weight: 500;
+        border-radius: 130px;
     }
 }
 
@@ -673,6 +712,22 @@ footer .social_icon li a:hover {
         font-size: 1.37rem;
         text-shadow: 1px 2px 1px #222;
         font-weight: 180;
+    }
+    #home .btn {
+        margin-top: 10px;
+        line-height: 50px;
+        justify-content: center;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+    }
+    #home a {
+        text-decoration: none;
+        font-size: 1.2rem;
+        padding: 3px 25px;
+        background-color: #fff;
+        font-weight: 500;
+        border-radius: 130px;
     }
 }
 
@@ -759,7 +814,7 @@ footer .social_icon li a:hover {
     }
     #home a {
         text-decoration: none;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         padding: 3px 25px;
         background-color: #fff;
         font-weight: 500;
@@ -786,7 +841,7 @@ footer .social_icon li a:hover {
     }
     #home a {
         text-decoration: none;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         padding: 3px 25px;
         background-color: #fff;
         font-weight: 500;

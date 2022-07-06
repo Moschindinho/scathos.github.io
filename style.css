@@ -357,8 +357,8 @@ second-nav .nav-bar {
 }
 
 #features .fea-box h3 {
-    font-size: 1.4rem;
-    font-weight: 600;
+    font-size: 1.25rem;
+    font-weight: 500;
     padding: 13px 0 7px 0;
     color: rgb(180, 111, 8);
 }
@@ -553,19 +553,22 @@ footer .social_icon li a:hover {
     }
     #home .btn {
         margin-top: 40px;
+        line-height: 60px;
+        justify-content: center;
+        flex-wrap: wrap;
     }
     #home a {
         text-decoration: none;
         font-size: 1.1rem;
         margin-top: 40px;
-        padding: 13px 35px;
+        padding: 9px 25px;
         background-color: #fff;
         font-weight: 500;
-        border-radius: 180px;
+        border-radius: 130px;
     }
 }
 
-@media screen and (max-width: 980px) {
+@media (max-width: 991px) {
     #home .btn {
         margin-top: 20px;
         line-height: 60px;
@@ -574,7 +577,7 @@ footer .social_icon li a:hover {
     }
     #home a {
         text-decoration: none;
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         padding: 9px 25px;
         background-color: #fff;
         font-weight: 500;

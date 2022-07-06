@@ -565,22 +565,7 @@ footer .social_icon li a:hover {
     }
 }
 
-@media screen and (max-width: 980px) {
-    #home .btn {
-        margin-top: 20px;
-        line-height: 60px;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    #home a {
-        text-decoration: none;
-        font-size: 1.5rem;
-        padding: 9px 25px;
-        background-color: #fff;
-        font-weight: 500;
-        border-radius: 130px;
-    }
-}
+@media screen and (min-width: 980px) {}
 
 
 /*Tablet Desktop: 768px*/
@@ -746,20 +731,17 @@ footer .social_icon li a:hover {
         text-shadow: none;
     }
     #home .btn {
-        margin-top: 10px;
-        line-height: 50px;
+        margin-top: 20px;
+        line-height: 60px;
         justify-content: center;
-        flex-wrap: wrap;
-        display: flex;
-        flex-direction: column;
     }
     #home a {
         text-decoration: none;
         font-size: 1.5rem;
-        padding: 3px 25px;
+        padding: 13px 55px;
         background-color: #fff;
         font-weight: 500;
-        border-radius: 130px;
+        border-radius: 180px;
     }
     .logo {
         right: 90%;
@@ -775,17 +757,12 @@ footer .social_icon li a:hover {
         color: #fff;
         text-shadow: 3px 3px 3px #222;
     }
-    #home .btn {
-        margin-top: 10px;
-        line-height: 50px;
-        justify-content: center;
-    }
     #home a {
         text-decoration: none;
         font-size: 1.5rem;
-        padding: 3px 25px;
+        padding: 13px 35px;
         background-color: #fff;
         font-weight: 500;
-        border-radius: 130px;
+        border-radius: 180px;
     }
 }
